@@ -1,52 +1,55 @@
 {
-  "name": "react-data-components",
-  "version": "0.4.0",
-  "description": "React data components",
-  "keywords": [
-    "react",
-    "react-component",
-    "table",
-    "pagination"
-  ],
-  "author": "Carlos Rocha",
-  "license": "MIT",
-  "main": "./lib/index",
-  "files": [
-    "css",
-    "lib",
-    "LICENSE",
-    "CHANGELOG.md"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carlosrocha/react-data-components"
+  "name": "gulp-webpack-react",
+  "description": "Seed project for React development.",
+  "repository": "https://github.com/grassator/gulp-webpack-react.git",
+  "version": "0.4.1",
+  "scripts": {
+    "test": "gulp test"
   },
-  "peerDependencies": {
-    "react": "^0.13.0"
+  "dependencies": {
+    "react": "~0.13.0"
   },
   "devDependencies": {
-    "css-loader": "^0.7.1",
-    "d3": "^3.4.11",
-    "flux": "^2.0.3",
-    "jest-cli": "^0.4.0",
-    "jsx-loader": "^0.13.1",
-    "keymirror": "^0.1.1",
-    "object-assign": "^2.0.0",
-    "react-tools": "^0.13.2",
-    "style-loader": "^0.7.1",
-    "webpack": "^1.8.9",
-    "webpack-dev-server": "^1.8.2"
-  },
-  "scripts": {
-    "prepublish": "jsx --harmony --no-cache-dir src lib",
-    "start": "cd example && webpack-dev-server -d --progress --colors --hot --inline",
-    "test": "jest"
-  },
-  "jest": {
-    "rootDir": "src",
-    "scriptPreprocessor": "../jest/preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "../node_modules/react"
-    ]
+    "autoprefixer-loader": "^1.2.0",
+    "babel": "^5.6.14",
+    "babel-core": "^4.7.12",
+    "babel-eslint": "^3.1.19",
+    "babel-loader": "^4.1.0",
+    "chai": "^2.1.1",
+    "compression": "^1.5.0",
+    "css-loader": "^0.15.1",
+    "del": "^1.1.1",
+    "ehr-ace-react": "git+ssh://git@code.dianpingoa.com:shanshan.xi/ehr-ace-seed.git",
+    "es5-shim": "^4.1.0",
+    "eslint": "^0.18.0",
+    "eslint-config-airbnb": "0.0.6",
+    "eslint-loader": "^0.9.0",
+    "eslint-plugin-react": "^2.0.2",
+    "express": "^4.13.0",
+    "extract-text-webpack-plugin": "^0.5.0",
+    "file-loader": "^0.8.1",
+    "gulp": "^3.8.11",
+    "gulp-bg": "0.0.5",
+    "gulp-eslint": "^0.14.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-util": "^3.0.4",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-webpack": "^1.5.0",
+    "less": "^2.4.0",
+    "less-loader": "^2.2.0",
+    "mocha": "^2.2.1",
+    "node-sass": "^3.2.0",
+    "piping": "^0.2.0",
+    "react-hot-loader": "^1.2.3",
+    "require-dir": "^0.3.0",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
   }
 }
