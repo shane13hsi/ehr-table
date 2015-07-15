@@ -9,6 +9,7 @@ module.exports = Object.freeze({
 
     BUILD_DIR: path.join(ABSOLUTE_BASE, 'build'),
     DIST_DIR: path.join(ABSOLUTE_BASE, 'dist'),
+    LIB_DIR: path.join(ABSOLUTE_BASE, 'lib'),
 
     SRC_DIR: path.join(ABSOLUTE_BASE, 'src'),
     ASSETS_DIR: path.join(ABSOLUTE_BASE, 'assets'),
