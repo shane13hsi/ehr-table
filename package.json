@@ -2,7 +2,7 @@
   "name": "ehr-table",
   "description": "Simple table component",
   "repository": "https://github.com/shane13hsi/ehr-table",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "test": "gulp test"
   },
