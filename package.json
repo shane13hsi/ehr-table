@@ -1,8 +1,8 @@
 {
-  "name": "gulp-webpack-react",
-  "description": "Seed project for React development.",
-  "repository": "https://github.com/grassator/gulp-webpack-react.git",
-  "version": "0.4.1",
+  "name": "ehr-table",
+  "description": "Simple table component",
+  "repository": "https://github.com/shane13hsi/ehr-table",
+  "version": "0.0.1",
   "scripts": {
     "test": "gulp test"
   },
